@@ -4,13 +4,13 @@ var http = require('https');
 const watsonJsonParserObject = require('./WatsonJsonParser.js');
 
 //Difing variables that connect to the Discover Watson services
-let discoverUserName = '4e458abd-d71d-4723-8b93-15bd6cdb9c0b'
-let discoverPassword = 'Esew21mSSoLa'
-let discoverenvoironmentID = 'c068ceca-4527-43dc-bc9e-43bebcd16335'
-let discovercollectionID = '424caf97-36f2-419c-8d02-768d9a8ed8b6'
+let discoverUserName = '##########' // Put your discovery username here
+let discoverPassword = '#######' //Put your discovery password here
+let discoverenvoironmentID = '#######' // Put your discovery envoironment id here
+let discovercollectionID = '#########' // Put your discovery collection id here
 
 
-var auth = '4e458abd-d71d-4723-8b93-15bd6cdb9c0b:Esew21mSSoLa';
+var auth = '########' //Put your authorization token form discovery here;
 var watsonReturnedText;
 //-----------------
 
